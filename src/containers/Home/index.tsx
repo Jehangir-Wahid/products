@@ -105,8 +105,8 @@ function Products() {
 									<div className='col-md-12 px-0 mb-5'>
 										<div className='row'>
 											<div className='col-md-12'>
-												<ul className='d-flex justify-content-between text-muted'>
-													<li className='d-inline'>
+												<ul className='row d-flex justify-content-between text-muted'>
+													<li className='col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12 d-inline'>
 														<a
 															onClick={() =>
 																setCategory('')
@@ -119,7 +119,7 @@ function Products() {
 														new Set(categories)
 													).map((category, index) => (
 														<li
-															className='d-inline'
+															className='col-xl-2 col-lg-3 col-md-12 col-sm-12 col-12 d-inline'
 															key={index}
 														>
 															<a

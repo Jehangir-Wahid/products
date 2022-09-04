@@ -54,7 +54,7 @@ const Product: React.FC<any> = ({
 	};
 
 	return (
-		<div className='col-md-3'>
+		<div className='col-xl-3 col-lg-4 col-md-5 col-sm-6 col-12'>
 			<div className='card mb-4 border-0 p-1'>
 				<a
 					href='#'
