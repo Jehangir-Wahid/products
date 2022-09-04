@@ -1,0 +1,10 @@
+export enum ProductActionTypes {
+	SET_FILTERED_PRODUCTS = 'SET_FILTERED_PRODUCTS',
+}
+
+export enum GeneralActionTypes {
+	SET_IS_LOADING = 'SET_IS_LOADING',
+	SET_MESSAGE = 'SET_MESSAGE',
+	RESET_MESSAGE = 'RESET_MESSAGE',
+	RESET = 'RESET',
+}

@@ -1,0 +1,33 @@
+$primary: #f86338;
+
+@import 'bootstrap';
+@import '@fontsource/merriweather';
+@import '@fontsource/dm-sans';
+
+body {
+	margin: 0;
+	font-family: 'Merriweather';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.font-dm-sans {
+	font-family: 'DM Sans';
+}
+
+h4 {
+	font-weight: 700;
+}
+
+.banner {
+	height: 400px;
+}
+
+.card:hover {
+	border: 0.5px solid rgba(0, 0, 0, 0.175) !important;
+	border-radius: 0.375rem;
+}
+
+.footer {
+	height: 476px;
+}
